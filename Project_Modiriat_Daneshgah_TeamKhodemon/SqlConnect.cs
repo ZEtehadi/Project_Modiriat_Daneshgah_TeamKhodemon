@@ -9,7 +9,7 @@ namespace Project_Modiriat_Daneshgah_TeamKhodemon
 {
     class SqlConnect
     {
-        SqlConnection Con = new SqlConnection("Data Source=Z_E\\MSSQLSERVER_2022;Initial Catalog=DBEntekhabVahed_teamKhodemon1;Integrated Security=True");
+        SqlConnection Con = new SqlConnection("Data Source=.;Initial Catalog=DBEntekhabVahed_teamKhodemon1;Integrated Security=True");
         //.  OR Z_E\MSSQLSERVER_2022
         SqlDataAdapter Adapter;
 

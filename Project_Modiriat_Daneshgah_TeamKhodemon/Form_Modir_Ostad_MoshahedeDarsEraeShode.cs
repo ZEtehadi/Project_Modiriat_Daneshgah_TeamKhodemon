@@ -55,8 +55,8 @@ namespace Project_Modiriat_Daneshgah_TeamKhodemon
             txtOstad_FName.Text = Class1.OstadSelectFName.ToString();
             txtOstad_LName.Text = Class1.OstadSelectLName.ToString();
 
-            Con = new SqlConnection("Data Source=Z_E\\MSSQLSERVER_2022;Initial Catalog=DBEntekhabVahed_teamKhodemon1;Integrated Security=True");
-            //. or Z_E\\MSSQLSERVER_2022
+            Con = new SqlConnection("Data Source=.;Initial Catalog=DBEntekhabVahed_teamKhodemon1;Integrated Security=True");
+            //. or .
             Con.Open();
             Adapter = new SqlDataAdapter("select LessonCode,EraeeCode,LessonName,NumberVahed,LessonTime,LessonDay,ExamDate,ExamTime from Table_Teacher_Lesson where TeacherCode='"+TeacherCode+"'", Con);
             Dt = new DataTable();

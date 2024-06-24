@@ -71,8 +71,8 @@ namespace Project_Modiriat_Daneshgah_TeamKhodemon
             this.Top = 120;
             this.Left = 250;
 
-            Con = new SqlConnection("Data Source=Z_E\\MSSQLSERVER_2022;Initial Catalog=DBEntekhabVahed_teamKhodemon1;Integrated Security=True");
-            //.  OR Z_E\\MSSQLSERVER_2022
+            Con = new SqlConnection("Data Source=.;Initial Catalog=DBEntekhabVahed_teamKhodemon1;Integrated Security=True");
+            //.  OR .
             Con.Open();
         }
 

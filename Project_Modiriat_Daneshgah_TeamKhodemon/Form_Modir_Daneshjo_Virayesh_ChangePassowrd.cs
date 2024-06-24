@@ -33,8 +33,8 @@ namespace Project_Modiriat_Daneshgah_TeamKhodemon
 
             txtLastPassword.Text = SelectStudentPassword.ToString();
 
-            Con = new SqlConnection("Data Source=Z_E\\MSSQLSERVER_2022;Initial Catalog=DBEntekhabVahed_teamKhodemon1;Integrated Security=True");
-            //. or Z_E\\MSSQLSERVER_2022
+            Con = new SqlConnection("Data Source=.;Initial Catalog=DBEntekhabVahed_teamKhodemon1;Integrated Security=True");
+            //. or .
             Con.Open();
 
             txtLastPassword.Text = SelectStudentPassword.ToString();

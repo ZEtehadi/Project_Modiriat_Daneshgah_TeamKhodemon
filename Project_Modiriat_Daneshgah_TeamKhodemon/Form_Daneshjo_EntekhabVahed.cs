@@ -67,8 +67,8 @@ namespace Project_Modiriat_Daneshgah_TeamKhodemon
             this.Left = 207;
             this.Top = 126;
 
-            Con = new SqlConnection("Data Source=Z_E\\MSSQLSERVER_2022;Initial Catalog=DBEntekhabVahed_teamKhodemon1;Integrated Security=True");
-            //. or Z_E\\MSSQLSERVER_2022
+            Con = new SqlConnection("Data Source=.;Initial Catalog=DBEntekhabVahed_teamKhodemon1;Integrated Security=True");
+            //. or .
             Con.Open();
 
             Adapter = new SqlDataAdapter("select LessonName,LessonCode,EraeeCode,TeacherName,TeacherCode,NumberVahed,LessonTime,LessonDay,ExamDate,ExamTime from Table_Admin_Lesson where TakenForTeacher=1 ", Con);
